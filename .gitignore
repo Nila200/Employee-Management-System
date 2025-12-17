@@ -1,0 +1,19 @@
+# ===================
+# Backend
+# ===================
+backend/node_modules/   # Ignore backend dependencies
+backend/.env            # Ignore backend environment variables
+
+# ===================
+# Frontend
+# ===================
+employee_management/node_modules/  # Ignore frontend dependencies
+employee_management/.env           # Ignore frontend environment variables
+employee_management/build/         # Ignore React build folder if you build frontend
+
+# ===================
+# OS / Editor files
+# ===================
+.DS_Store               # Mac system file
+Thumbs.db               # Windows system file
+*.log                   # Log files
